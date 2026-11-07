@@ -1,0 +1,17 @@
+name: AgentIOS
+options:
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  AgentIOS:
+    type: application
+    platform: iOS
+    sources:
+      - AgentIOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.agentios
+        INFOPLIST_KEY_CFBundleDisplayName: 智能体
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
